@@ -1,0 +1,1 @@
+import{j as n,L as e}from"./index-a7466c45.js";function t(){return n.jsxs("div",{children:[n.jsx("h1",{children:"page not found :("}),n.jsx("h2",{children:n.jsx(e,{to:"/",children:"Return to home"})})]})}export{t as default};
