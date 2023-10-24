@@ -1,0 +1,49 @@
+.header {
+  background-color: #141b41;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Cairo", sans-serif;
+}
+
+.logo {
+  font-size: 2rem;
+  text-decoration: none;
+
+  color: white;
+}
+
+.ul {
+  font-size: 2rem;
+  list-style: none;
+
+  display: flex;
+  gap: 2rem;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.link:link,
+.link:visited {
+  color: #b1cdec;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* .img {
+  width: 100%;
+} */
+
+/* BELOW 660px */
+@media (max-width: 41.25em) {
+  .header {
+    display: block;
+    height: 8rem;
+  }
+}

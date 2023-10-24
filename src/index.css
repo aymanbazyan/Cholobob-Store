@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.active {
+  text-decoration: underline !important;
+}
+
+/* .icon-home:before {
+  content: "\e900";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-credit-card:before {
+  content: "\e93f";
+}
+.icon-equalizer:before {
+  content: "\e992";
+}
+.icon-file-text:before {
+  content: "\e922";
+}
+.icon-dropbox:before {
+  content: "\eaae";
+} */
+
+/* BELOW 430px */
+@media (max-width: 26.875em) {
+  html {
+    font-size: 50%;
+  }
+}

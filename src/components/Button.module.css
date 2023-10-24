@@ -1,0 +1,42 @@
+.button {
+  font-size: 16px;
+  width: fit-content;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  transition: all 0.2s;
+  /* margin-top: auto; */
+}
+
+.green {
+  background-color: #4caf50;
+}
+
+.green:hover {
+  background-color: #49914b;
+}
+
+.purple {
+  background-color: rgb(160, 25, 160);
+}
+
+.purple:hover {
+  background-color: rgb(145, 22, 145);
+}
+
+.blue {
+  background-color: #3d91ba;
+}
+
+.blue:hover {
+  background-color: #327597;
+}
+
+.locked {
+  color: #333;
+  user-select: none;
+}
